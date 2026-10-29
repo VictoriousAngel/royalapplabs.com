@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Royal App Labs</title>
-  <meta name="description" content="Royal App Labs makes careful, well-made apps for iPhone and iPad, starting with Royal Coins, for cataloging a coin collection.">
+  <meta name="description" content="Royal App Labs is a small, independent studio making apps for iPhone and iPad, starting with Royal Coins, and APIs for businesses, starting with Rosemary for Sage 50.">
+  <meta name="theme-color" content="#0a3529">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -12,76 +13,128 @@
   <header class="site-head">
     <div class="wrap">
       <a class="brand" href="./">
-        <img src="icon.svg" alt="" width="40" height="40">
-        Royal App Labs
+        <img src="icon.svg" alt="" width="34" height="34">
+        <span>Royal App Labs</span>
       </a>
       <nav aria-label="Main">
-        <a href="#coins">Royal Coins</a>
-        <a href="#support">Support</a>
-        <a href="privacy.html">Privacy</a>
+        <a href="apps.html">Apps</a>
+        <a href="business.html">Business</a>
+        <a href="#support">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="wrap">
-    <section class="hero">
-      <p class="eyebrow">Apps for iPhone and iPad</p>
-      <h1>Careful apps for the things you treasure.</h1>
-      <p>Royal App Labs is a small, independent studio. We make apps that are a pleasure to use, keep your information
-        in your own hands, and never track you.</p>
-    </section>
-
-    <section class="app" id="coins" aria-labelledby="coins-title">
-      <div class="app-head">
-        <img class="app-icon" src="coins-icon.svg" alt="" width="88" height="88">
+  <main>
+    <div class="shell">
+      <section class="hero">
         <div>
-          <h2 id="coins-title">Royal Coins</h2>
-          <p>Catalog, identify, and value your coin collection.</p>
-          <span class="badge">Coming in 2027</span>
+          <span class="pill rise"><span class="dot"></span>Now building · First release in 2027</span>
+          <h1 class="rise" style="--d: 0.08s">Software made with <em>care</em>, for people and for business.</h1>
+          <p class="lede rise" style="--d: 0.16s">Royal App Labs is a small, independent studio. We make apps for iPhone and iPad that keep your
+            information in your own hands, and APIs that help businesses connect the tools they already use.</p>
+          <div class="actions rise" style="--d: 0.24s">
+            <a class="btn btn-gold" href="apps.html">Explore Our Apps <span class="arrow" aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="business.html">For Business <span class="arrow" aria-hidden="true">→</span></a>
+          </div>
         </div>
-      </div>
+        <div class="hero-art rise" style="--d: 0.2s" aria-hidden="true">
+          <span class="ring ring-1"></span>
+          <span class="ring ring-2"></span>
+          <img class="hero-coin" src="icon.svg" alt="" width="240" height="240">
+        </div>
+      </section>
+    </div>
 
-      <ul class="features">
-        <li>
-          <h3>Photograph Each Coin</h3>
-          <p>A guided camera takes the front, back, and edge, then trims and straightens each photo around the coin.</p>
-        </li>
-        <li>
-          <h3>Identify And Grade With AI</h3>
-          <p>Claude, the AI from Anthropic, names the coin, suggests a grade, and shows its reasons on your own photos.
-            You decide what to keep.</p>
-        </li>
-        <li>
-          <h3>Know What It's Worth</h3>
-          <p>Values from published price guides, with each coin's metal worth at today's prices as a floor.</p>
-        </li>
-        <li>
-          <h3>The Coin Book</h3>
-          <p>Leaf through your collection like a fine album, page by page, coin by coin.</p>
-        </li>
-        <li>
-          <h3>Insights</h3>
-          <p>See what your collection holds and how its value changes over time.</p>
-        </li>
-        <li>
-          <h3>Yours, In Your iCloud</h3>
-          <p>No account to make. Your collection syncs between your iPhone and iPad through your own iCloud, and
-            exports to CSV, text, or PDF whenever you like.</p>
-        </li>
-      </ul>
-    </section>
+    <div class="wrap">
+      <section class="section" aria-labelledby="work-title">
+        <p class="kicker">What We Make</p>
+        <h2 class="section-title" id="work-title">Two kinds of work, <em>one standard</em>.</h2>
+        <p class="section-lede">Apps you can download for yourself, and services businesses can build on. Each gets the same
+          attention to detail.</p>
 
-    <section class="support" id="support" aria-labelledby="support-title">
-      <h2 id="support-title">Support</h2>
-      <p>Questions, ideas, or something not working? Write to us. We read every message.</p>
-      <p><a class="mail" href="mailto:hello@royalapplabs.com">hello@royalapplabs.com</a></p>
-    </section>
+        <div class="doors">
+          <a class="door reveal" id="coins" href="apps.html">
+            <p class="kicker">For Everyone</p>
+            <h3>Apps</h3>
+            <p>Downloadable apps for iPhone and iPad. No account to make, no tracking, and your data stays in your own
+              iCloud.</p>
+            <div class="product">
+              <img src="coins-icon.svg" alt="" width="54" height="54">
+              <div>
+                <strong>Royal Coins</strong>
+                <span>Catalog, identify, and value your coin collection · Coming 2027</span>
+              </div>
+            </div>
+            <span class="go">See Our Apps <span class="arrow" aria-hidden="true">→</span></span>
+          </a>
+
+          <a class="door door-dark reveal" href="business.html">
+            <p class="kicker">For Business</p>
+            <h3>APIs &amp; Integrations</h3>
+            <p>Services that businesses and their developers can build on, so the software they rely on works better
+              together.</p>
+            <div class="product">
+              <img src="rosemary-icon.svg" alt="" width="54" height="54">
+              <div>
+                <strong>Rosemary</strong>
+                <span>An API for Sage 50 · In development</span>
+              </div>
+            </div>
+            <span class="go">See Our Business Work <span class="arrow" aria-hidden="true">→</span></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="status-title">
+        <p class="kicker">Where Things Stand</p>
+        <h2 class="section-title" id="status-title">Still in the workshop.</h2>
+        <p class="section-lede">Everything here is being built now. Nothing is available to download or buy yet.</p>
+
+        <ol class="timeline">
+          <li class="now reveal">
+            <span class="when">Now</span>
+            <h3>Building Royal Coins and Rosemary</h3>
+            <p>Both are in development: designing, building, and testing.</p>
+          </li>
+          <li class="reveal">
+            <span class="when">2027</span>
+            <h3>Royal Coins arrives</h3>
+            <p>Our first app is planned for the App Store, for iPhone and iPad.</p>
+          </li>
+          <li class="reveal">
+            <span class="when">When it's ready</span>
+            <h3>Rosemary opens to businesses</h3>
+            <p>We'll share details here as Rosemary gets closer to launch.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section" id="support" aria-labelledby="support-title">
+        <div class="contact reveal">
+          <div>
+            <h2 id="support-title">Say hello.</h2>
+            <p>Questions, ideas, or want to hear when something launches? Write to us. We read every message.</p>
+          </div>
+          <a class="btn btn-solid" href="mailto:hello@royalapplabs.com">hello@royalapplabs.com</a>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer class="site-foot">
     <div class="wrap">
-      <span>© 2026 Royal App Labs</span>
-      <span><a href="privacy.html">Privacy Policy</a> · <a href="mailto:hello@royalapplabs.com">hello@royalapplabs.com</a></span>
+      <div class="foot-top">
+        <a class="brand" href="./"><img src="icon.svg" alt="" width="28" height="28"><span>Royal App Labs</span></a>
+        <nav aria-label="Footer">
+          <a href="apps.html">Apps</a>
+          <a href="business.html">Business</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="mailto:hello@royalapplabs.com">hello@royalapplabs.com</a>
+        </nav>
+      </div>
+      <p class="legal">© 2026 Royal App Labs · Florida, USA. Apple, iPhone, iPad, iCloud, and App Store are trademarks of
+        Apple Inc. Sage and Sage 50 are trademarks of The Sage Group plc or its licensors. Royal App Labs isn't
+        affiliated with or endorsed by Apple or Sage.</p>
     </div>
   </footer>
 </body>
